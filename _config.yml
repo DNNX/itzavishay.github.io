@@ -6,6 +6,7 @@ description: "A simple, beautiful theme for Jekyll that emphasizes content rathe
 baseurl:     ""
 url:         "https://avishay.dev"
 date_format: "%d %b %Y"
+future: true
 header_pages:
 
 # Google services
