@@ -46,9 +46,9 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username: itzavishay
-reddit_username: itzavishay
-bitbucket_username: itzavishay
+github_username:
+reddit_username:
+bitbucket_username:
 stackoverflow_id:
 twitter_username:
 skype_username:
