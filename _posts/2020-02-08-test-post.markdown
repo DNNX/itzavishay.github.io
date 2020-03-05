@@ -1,9 +1,0 @@
----
-layout:     post
-title:      First test
-date:       2020-02-08 22:06:54
-summary:    This is my first post, just to try to get the hang of it :)
-categories: test post
----
-
-![Oh hi Mark!](https://media.giphy.com/media/l0HUldzuCa0S16SkM/giphy.gif)
