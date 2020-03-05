@@ -2,7 +2,7 @@
 title:       Avishay's Blog
 email:       me@avishay.dev
 author:      Avishay Matayev
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "Avishay's dev blog"
 baseurl:     ""
 url:         "https://avishay.dev"
 date_format: "%d %b %Y"
