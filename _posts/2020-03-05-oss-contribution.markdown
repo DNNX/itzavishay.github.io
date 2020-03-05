@@ -2,8 +2,8 @@
 layout:     post
 title:      Open Source Contribution
 date:       2020-03-04 22:00:00
-summary:    I have made my first open source software contribution. I'll talk about what I did and why I think you should contribute to open source software too!
-categories: oss rust open-source lsp rls rust-analyzer language-server
+summary:    I contributed to rust-analyzer :) I'll talk about what I did and why I think you should contribute to open source software too!
+categories: 
 ---
 
 Hey there! Contributing to open source software is awesome. I'm going to talk about the story behind my first contribution, what I did and why I think you should contribute
