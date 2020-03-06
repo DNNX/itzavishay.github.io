@@ -111,7 +111,7 @@ Although scary at first, I believe every developer should try to contribute to a
  * **It is FUN!** Really, it is fun. I got to know some awesome people in the Rust zulip chat; I feel good about implementing the feature I wanted and I can't help but be happy that
  people will use and enjoy this feature (although they probably will never know who I am, and that's fine!).
 
- In conclusion, take a project that you frequently use that is on github, take a look in the issues tab, find something you like and ![JUST DO IT!](https://media1.giphy.com/media/b7f0X8Okk1uyk/source.gif)
+ In conclusion, find a project that you frequently use that is on github, take a look in the issues tab, find something you like and ![JUST DO IT!](https://media1.giphy.com/media/b7f0X8Okk1uyk/source.gif)
  I hope you enjoyed the read, let me know about your thoughts in the comments or through reddit ([/u/itzavishay](https://www.reddit.com/user/itzavishay)), I'll be more than happy to listen or chat!
 
 ## Bonus: A bug (?) in my pull request
