@@ -68,10 +68,10 @@ were already posted in the issue.
 Here's what I did:
 
  * Read through [the development documentation](https://github.com/rust-analyzer/rust-analyzer/tree/master/docs/dev) (most open source projects will have an equivalent such as `CONTRIBUTING.MD`).
- This was interesting and helpful but really overwhelming; So much information I did not know what do do with. 
+ This was interesting and helpful but really overwhelming; So much information I did not know what to do with. 
  
  * Went through [the links in Jane's comment](https://github.com/rust-analyzer/rust-analyzer/issues/1705#issuecomment-522732758). But rather than glimpsing through them I tried my best
- to read and understand as much about the context presented. I found features of `rust-analyzer`, such as symbol definitions and references really useful, navigating thorugh the code
+ to read and understand as much about the context presented. I found features of `rust-analyzer`, such as symbol definitions and references really useful, navigating through the code
  efficiently really improved my learning experience. After a while, I found the ['code that inserts parens'](https://github.com/rust-analyzer/rust-analyzer/blob/c7d37e424f1e04f87982233f97e1e9385191b7f1/crates/ra_ide_api/src/completion/presentation.rs#L120-L130)
  link the most relevant to the feature (note that the link is giving context for a blob in a certain commit, rather than the most updated file at the master branch).
 
