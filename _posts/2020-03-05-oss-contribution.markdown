@@ -125,7 +125,9 @@ One important detail is that using the dot notation for calling methods will exc
 What did my feature do? Insert self as a suggestion, of course. I waited until I got back home, created [an issue](https://github.com/rust-analyzer/rust-analyzer/issues/3466)
 and went straight into fixing the disastrous bug I introduced.
 
-I finished the fix, added new tests, rebased over the latest master. A conflict? Someone touched that code again already? Let's see..
+I finished the fix, added new tests, rebased over the latest master.
+
+And... a conflict? Someone touched that code again already? Let's see..
 _![did I fix it already on a different timeline?](https://user-images.githubusercontent.com/5567310/75924613-ee437300-5e6f-11ea-9436-01cc0bf66389.png)_
 (My code is below, the code from master is above)
 
