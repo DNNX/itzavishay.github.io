@@ -30,7 +30,7 @@ Let's expand the conf option as it is what the tutorial uses:
 
 _![no parameters](/assets/demo-sad2.png)_
 
-Wait, where are the parameters? I'm pretty this method had parameters, I'll delete and pick it again from the completion list.. Ah! No parameters again? I probably messed up my environment,
+Wait, where are the parameters? I'm pretty sure this method had parameters, I'll delete and pick it again from the completion list.. Ah! No parameters again? I probably messed up my environment,
 I'll quickly google the issue and find the missing flag or misconfigured file... 
 
 [I found a relevant issue pretty fast](https://github.com/rust-analyzer/rust-analyzer/issues/1705).
@@ -78,7 +78,7 @@ Here's what I did:
  * Asked some questions in [the Rust zulip chat](https://rust-lang.zulipchat.com/).
  
  * Read the [LSP Specification](https://microsoft.github.io/language-server-protocol/specifications/specification-current), more specifically - [textDocument_completion](https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_completion).
-Thanks to that, I now understood that I'll need to return a snippet in the following form:
+Thanks to that, I understood that I'll need to return a snippet in the following form:
 
 ```Rust
 function_name(${1:arg_a}, ${2:arg_b})$0
@@ -102,7 +102,7 @@ Eventually, I felt like I knew enough of what needs to be done, and the missing 
 Although scary at first, I believe every developer should try to contribute to an open source project of his choice for various reasons:
 
  * **It takes you out of your comfort zone and teaches you a lot.** My Rust skills were *Rusty* (heh) at best, I barely knew anything about the language server protocol, now I feel much 
- more onfident in both.
+ more confident in both.
 
  * **Many if not most of your daily software is open source and developed by contributors.** Some might say that proprietary software is better. Regardless, as a developer, I
  feel that we owe open source software (and their maintainers / contributors!) a lot, we wouldn't be where we are in terms of advancement had they worked on closed software exclusively.
@@ -116,7 +116,9 @@ Although scary at first, I believe every developer should try to contribute to a
 
 ## Bonus: A bug (?) in my pull request
 Right after my pull request was merged, I left home and felt that something was forgotten - what about methods?
-(I tested the feature using functions that are not defined under a struct) In Rust, methods include the `self` parameter in their declaration, 
+(I tested the feature using functions that are not defined under a struct)
+
+In Rust, methods include the `self` parameter in their declaration, 
 which tells the compiler that this method is to be used in conjuction with an instance of the enclosing struct (in comparison to a static method that can be called without one).
 
 One important detail is that using the dot notation for calling methods will exclude self from the required parameters - `instance.method(param_a, param_b)`
